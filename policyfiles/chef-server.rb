@@ -14,4 +14,3 @@ run_list "chef-server::default"
 
 # Specify a custom source for a single cookbook:
 # cookbook "development_cookbook", path: "../cookbooks/development_cookbook"
-cookbook 'chef-server'
