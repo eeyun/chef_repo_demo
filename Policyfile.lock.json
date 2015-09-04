@@ -1,6 +1,6 @@
 {
-  "revision_id": "00f686fa1ef817437e0c63b70039d77c04c40e4a94ab485d96fd6ef90ba53f2b",
-  "name": "Chef_Server",
+  "revision_id": "13216e07fece1230ecfe29dcf2100c6cde59667131c6912c88d1c9d27084a69f",
+  "name": "chef-server",
   "run_list": [
     "recipe[git::default]"
   ],
