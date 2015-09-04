@@ -10,9 +10,10 @@ name "Chef_Server"
 default_source :community
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list "cookbook::recipe"
+run_list "git"
 
 # Specify a custom source for a single cookbook:
 # cookbook "development_cookbook", path: "../cookbooks/development_cookbook"
 cookbook 'git'
 cookbook 'apt'
+cookbook 'jenkins'
